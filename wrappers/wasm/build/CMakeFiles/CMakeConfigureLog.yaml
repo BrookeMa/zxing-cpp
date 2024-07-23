@@ -1,0 +1,114 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Darwin - 23.5.0 - arm64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/yema/Development/Forks/zxing-cpp/core/CMakeLists.txt:83 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAS_FILE_PREFIX_ARG"
+    directories:
+      source: "/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-JPvS7S"
+      binary: "/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-JPvS7S"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "HAS_FILE_PREFIX_ARG"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-JPvS7S'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_694f2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_694f2.dir/build.make CMakeFiles/cmTC_694f2.dir/build
+        Building CXX object CMakeFiles/cmTC_694f2.dir/src.cxx.o
+        /Users/yema/.emsdk/upstream/emscripten/em++ -DHAS_FILE_PREFIX_ARG  -std=gnu++20   -fmacro-prefix-map=/Users/yema/Development/Forks/zxing-cpp/core/= -MD -MT CMakeFiles/cmTC_694f2.dir/src.cxx.o -MF CMakeFiles/cmTC_694f2.dir/src.cxx.o.d -o CMakeFiles/cmTC_694f2.dir/src.cxx.o -c /Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-JPvS7S/src.cxx
+        Linking CXX executable cmTC_694f2.js
+        /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_694f2.dir/link.txt --verbose=1
+        /Users/yema/.emsdk/upstream/emscripten/em++ @CMakeFiles/cmTC_694f2.dir/objects1.rsp -o cmTC_694f2.js
+        cache:INFO: generating system asset: symbol_lists/5af15e17dd067d4ae3a9b763c63d9726ad0fded4.json... (this will be cached in "/Users/yema/.emsdk/upstream/emscripten/cache/symbol_lists/5af15e17dd067d4ae3a9b763c63d9726ad0fded4.json" for subsequent builds)
+        cache:INFO:  - ok
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/Users/yema/Development/Forks/zxing-cpp/core/CMakeLists.txt:489 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-RMb7wY"
+      binary: "/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-RMb7wY"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-RMb7wY'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_81c91/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_81c91.dir/build.make CMakeFiles/cmTC_81c91.dir/build
+        Building C object CMakeFiles/cmTC_81c91.dir/src.c.o
+        /Users/yema/.emsdk/upstream/emscripten/emcc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_81c91.dir/src.c.o -MF CMakeFiles/cmTC_81c91.dir/src.c.o.d -o CMakeFiles/cmTC_81c91.dir/src.c.o -c /Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-RMb7wY/src.c
+        Linking C executable cmTC_81c91.js
+        /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81c91.dir/link.txt --verbose=1
+        /Users/yema/.emsdk/upstream/emscripten/emcc @CMakeFiles/cmTC_81c91.dir/objects1.rsp -o cmTC_81c91.js
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/yema/Development/Forks/zxing-cpp/core/CMakeLists.txt:571 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_KNOWS_Os"
+    directories:
+      source: "/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-bwKs28"
+      binary: "/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-bwKs28"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules;/Users/yema/.emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "COMPILER_KNOWS_Os"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-bwKs28'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_35ce2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_35ce2.dir/build.make CMakeFiles/cmTC_35ce2.dir/build
+        Building CXX object CMakeFiles/cmTC_35ce2.dir/src.cxx.o
+        /Users/yema/.emsdk/upstream/emscripten/em++ -DCOMPILER_KNOWS_Os  -std=gnu++20   -Os -MD -MT CMakeFiles/cmTC_35ce2.dir/src.cxx.o -MF CMakeFiles/cmTC_35ce2.dir/src.cxx.o.d -o CMakeFiles/cmTC_35ce2.dir/src.cxx.o -c /Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/CMakeScratch/TryCompile-bwKs28/src.cxx
+        Linking CXX executable cmTC_35ce2.js
+        /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35ce2.dir/link.txt --verbose=1
+        /Users/yema/.emsdk/upstream/emscripten/em++ @CMakeFiles/cmTC_35ce2.dir/objects1.rsp -o cmTC_35ce2.js
+        
+      exitCode: 0
+...

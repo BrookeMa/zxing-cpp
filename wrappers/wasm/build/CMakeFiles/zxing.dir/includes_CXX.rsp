@@ -1,0 +1,1 @@
+-I"/Users/yema/Development/Forks/zxing-cpp/core/src" -I"/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/ZXing" -isystem "/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/_deps/stb-src"

@@ -1,0 +1,16 @@
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/zxing.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/zxing_reader.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/zxing_writer.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/edit_cache.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/rebuild_cache.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/list_install_components.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/install.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/install/local.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/CMakeFiles/install/strip.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/ZXing/CMakeFiles/ZXing.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/ZXing/CMakeFiles/edit_cache.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/ZXing/CMakeFiles/rebuild_cache.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/ZXing/CMakeFiles/list_install_components.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/ZXing/CMakeFiles/install.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/ZXing/CMakeFiles/install/local.dir
+/Users/yema/Development/Forks/zxing-cpp/wrappers/wasm/build/ZXing/CMakeFiles/install/strip.dir
